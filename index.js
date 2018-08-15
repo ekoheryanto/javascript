@@ -1,2 +1,4 @@
 var messege = "Hello Coder";
-console.log(messege)
+let msg1 = "Selamat Belajar JS";
+const msg2 = "Frontend Dev";
+console.log(msg1)

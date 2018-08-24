@@ -1,5 +1,5 @@
 function cobaswitch(){
-  var nilai=4;
+  var nilai=10;
 
   switch(nilai){
     case 10:

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dom .getelementbyid</title>
+  </head>
+  <body>
+    <input id="namaawal" class="nama" type="text" value="eko"/>
+    <br>
+    <input id="namapanjang" class="nama" type="text" value="heryanto"/>
+    <br>
+    <button type="button" onclick="jalan()">Save</button>
+
+    <script>
+      function jalan() {
+        //alert("jalan")
+        console.log(document.getElementById('namaawal'));
+        console.log(document.getElementById('namapanjang'));
+        console.log(document.getElementsByClassName('nama'));
+        console.log(document.getElementsByTagName('input'))
+      }
+    </script>
+  </body>
+</html>

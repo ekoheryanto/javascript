@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Element Selector</title>
+  </head>
+  <body>
+    <input type="text" class="nama" value="eko"/>
+    <input type="text" class="nama" value="heryanto"/>
+    <input type="text" id="nik" value="167200041"/>
+    <button type="button" onclick="lihat()">Tekan</button>
+    <script>
+    function lihat() {
+      console.log(document.querySelector('.nama'))
+      console.log(document.querySelector('#nik'))
+      console.log(document.querySelectorAll('.nama'))
+    }
+    </script>
+  </body>
+</html>
